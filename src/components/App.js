@@ -6,15 +6,16 @@ import Nav from './Nav'
 import Sidebar from './Sidebar'
 
 
+
 const App = () => {
     return (
-        <div>
+        <div style={{ display: 'flex', flexWrap: 'wrap'}}>
             <Nav />
             <Sidebar />
             <Body />
             <Footer />
         </div>
-    )
+    );
 }
 
 export default App
